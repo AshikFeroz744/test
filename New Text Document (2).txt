@@ -1,0 +1,106 @@
+🔧 PROCEDURE: Build a Web-Based UT Simulation Tool
+✅ Step 1: Set Up the Project Structure
+
+Goal: Create folders and files to organize your project.
+
+What to do:
+
+Create a folder named ut-simulator on your computer.
+
+Inside that folder, create:
+
+A file named index.html — your main webpage.
+
+A folder named css, and inside it, a file styles.css — for page styling.
+
+A folder named js, and inside it, a file main.js — for your JavaScript code.
+
+👉 Once done, tell me, and I’ll guide you through Step 2.
+
+🧱 Step 2: Build the Basic HTML Layout
+
+Goal: Set up the structure of the webpage in index.html.
+
+What to do:
+
+Write the basic HTML with:
+
+A title
+
+A header
+
+Sections for the 3D model viewer, controls, and UT graph
+
+👉 I’ll give you the HTML code to paste when you’re ready.
+
+🎨 Step 3: Add CSS Styling
+
+Goal: Make the webpage look organized and neat.
+
+What to do:
+
+Add layout and design in styles.css
+
+Style the viewer, controls, and graph areas
+
+👉 I’ll give you simple CSS code for this once Step 2 is done.
+
+🧠 Step 4: Add Basic JavaScript Setup
+
+Goal: Link the HTML with your JavaScript code (main.js) and prepare to run simulation logic.
+
+What to do:
+
+Add <script> tags in index.html to load main.js
+
+Confirm JS is working with a test (e.g., console log)
+
+👉 I’ll walk you through a test script.
+
+📊 Step 5: Create UT Graph Display (A-scan)
+
+Goal: Use a graphing library (like Plotly.js) to draw a UT echo graph.
+
+What to do:
+
+Include Plotly in your HTML
+
+Write a function in main.js to plot basic echo data
+
+👉 I’ll provide easy code for a fake UT echo.
+
+📐 Step 6: Add Physics Calculations
+
+Goal: Simulate skip distance and time of flight based on angle and thickness.
+
+What to do:
+
+Create a function to calculate skip distance using trigonometry
+
+Link input values to these calculations
+
+👉 I’ll help you write simple formulas in JavaScript.
+
+📦 Step 7: Load 3D Calibration Block (Optional Advanced)
+
+Goal: Load a 3D model of a calibration block using Three.js
+
+What to do:
+
+Add Three.js to your project
+
+Load a 3D model (we can use a sample or I’ll show how to make one)
+
+👉 This step is more advanced and optional for now.
+
+✅ FINAL GOAL
+
+By the end, your UT simulator will:
+
+Take inputs like probe angle and material velocity
+
+Show a UT echo graph based on calculations
+
+(Optionally) display a 3D block or part
+
+Be fully usable in a browser
